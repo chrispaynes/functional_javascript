@@ -16,7 +16,7 @@ $ npm install
 
 Each file contains multiple function calls and their respective console output. Uncomment the function call you wish to use before executing the file.<br />
 <b>NOTE:</b> Some function calls were designed to throw an error to the console.<br />
-<b>NOTE:</b> Many functions with a leading `_.` will require the [UnderscoreJS library][2]:
+<b>NOTE:</b> Functions with a leading `_.` will require the [UnderscoreJS library][2]. UnderscoreJS creates a global named `_` that contains all its functions:
 ```sh
 var _ = require('../node_modules/underscore/underscore-min.js');
 
